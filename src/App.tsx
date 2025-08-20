@@ -2,6 +2,7 @@ import { useState } from "react";
 import ExplainForm from "./components/ExplainForm";
 import Navbar from "./components/Navbar";
 import Result from "./components/Result";
+import Footer from "./components/Footer";
 
 function App() {
   // State for result and loading
@@ -18,6 +19,7 @@ function App() {
         {/* Pass result + loading state down to Result */}
         <Result result={result} loading={loading} />
       </div>
+      <Footer />
     </>
   );
 }

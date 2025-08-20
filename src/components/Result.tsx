@@ -15,9 +15,9 @@ const Result: React.FC<ResultProps> = ({ result, loading }) => {
 //   }
 
   return (
-    <div className="p-4 bg-white rounded-md shadow-md mt-4 border border-gray-300 rounded-md md:w-8/12 overflow-y-auto h-96">
+    <div className="p-4 bg-white rounded-md shadow-md mt-4 border border-gray-300 rounded-md md:w-8/12 h-96 overflow-y-auto">
       <h3>Explanation</h3>
-      <pre className="whitespace-pre-wrap">{result}</pre>
+      <p className="whitespace-pre-wrap">{result}</p>
     </div>
   );
 };

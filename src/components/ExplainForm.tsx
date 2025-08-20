@@ -58,11 +58,9 @@ const ExplainForm: React.FC<ExplainFormProps> = ({ setResult, setLoading }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="p-4 bg-white rounded-md w-full md:w-6/12 mb-10 md:mb-0"
+      className="py-4 bg-white rounded-md w-full md:w-6/12 mb-5 md:mb-0"
     >
       <textarea
-        rows={10}
-        cols={80}
         placeholder="Paste your code here..."
         value={code}
         onChange={(e) => {
