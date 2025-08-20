@@ -95,7 +95,7 @@ const ExplainForm: React.FC<ExplainFormProps> = ({ setResult, setLoading, loadin
        <button
         type="submit"
         disabled={loading}
-        className={`mt-4 p-3 bg-blue-500 text-white rounded-md w-full flex items-center justify-center gap-2 transition-all duration-300 ${
+        className={`mt-4 p-3 bg-blue-800 text-white rounded-md w-full flex items-center justify-center gap-2 transition-all duration-300 ${
           loading ? "opacity-70 cursor-not-allowed" : ""
         }`}
       >
