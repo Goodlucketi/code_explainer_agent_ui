@@ -12,7 +12,7 @@ function App() {
   return (
     <main className="h-screen overflow-y-auto">
       <Navbar />
-      <div className="md:flex justify-between gap-10 w-10/12 mx-auto">
+      <div className="md:flex justify-between gap-10 w-11/12 md:w-10/12 mx-auto">
         {/* Pass the real state setters */}
         <ExplainForm setResult={setResult} setLoading={setLoading} loading={loading} />
 
