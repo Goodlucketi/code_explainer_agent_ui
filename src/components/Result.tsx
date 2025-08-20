@@ -7,7 +7,11 @@ interface ResultProps {
 
 const Result: React.FC<ResultProps> = ({ result, loading }) => {
   if (loading) {
-    return <p>Explaining your code... please wait.</p>;
+    return (
+        <div className="p-4 bg-white rounded-md shadow-md mt-4 border border-gray-300 rounded-md md:w-8/12 h-auto overflow-y-auto">
+        <p className="whitespace-pre-wrap">Explaining your code, Please wait...</p>
+        </div>
+    );
   }
 
 //   if (!result) {
