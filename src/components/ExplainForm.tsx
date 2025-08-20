@@ -88,7 +88,7 @@ const ExplainForm: React.FC<ExplainFormProps> = ({ setResult, setLoading, loadin
               setCode(""); // clear textarea if file selected
             }
           }}
-          className="border border-gray-300 rounded-md p-2 shadow-md w-full"
+          className="border border-gray-200 rounded-md p-2 shadow-md w-full"
         />
       </div>
 
